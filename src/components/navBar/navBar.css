@@ -1,0 +1,19 @@
+.navBar{
+    margin-top: 40px;
+    padding-top: 40px;
+    /* background-color: #222; */
+    margin:0%
+}
+.bold{
+    padding-left: 14px;
+    padding-right: 10px;
+}
+.navBarBrand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+.navLink{
+    padding-left: 50px;
+}

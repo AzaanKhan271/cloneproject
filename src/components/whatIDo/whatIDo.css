@@ -1,0 +1,47 @@
+#left_line {
+    background-color: #007ced;
+    margin-right:90%;
+    float:left;
+    width:4%;
+    height: 2px;
+    position:absolute;
+
+}
+#right_line {
+    background-color:  #333;
+    float:right;
+    width:5%;
+    height: 2px;
+    position:absolute;
+    left:12%;
+}
+.heading{
+    margin-left: 7%;
+}
+.whatIDoMainDiv{
+    margin-top: 8%;
+    /* margin-left: 7%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 80%; */
+}
+.whatIcon{
+    margin-left: 7%;
+    width: 10%;
+    height: 10%;
+    padding-top: 10px;
+}
+.whatCardsMainDiv{
+    display: flex;
+    margin-top: -11px;
+}
+.whatTextHeading{
+    /* margin-left: -180%; */
+    margin-top: 10px;
+    
+}
+.whatText{
+    width: 50%;
+    padding-top: -50%;
+}

@@ -1,0 +1,16 @@
+.mainDiv{
+    background-color:#222;
+    max-width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    height: 100%;
+    position: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
