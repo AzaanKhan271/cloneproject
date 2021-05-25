@@ -1,4 +1,4 @@
-#left_line {
+ #left_line {
     background-color: #007ced;
     margin-right:90%;
     float:left;
@@ -13,35 +13,47 @@
     width:5%;
     height: 2px;
     position:absolute;
-    left:12%;
+    left:10%;
 }
 .heading{
-    margin-left: 7%;
+    margin-bottom: 2%;
+    
 }
+/*  
 .whatIDoMainDiv{
     margin-top: 8%;
     /* margin-left: 7%; */
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     /* width: 80%; */
-}
-.whatIcon{
-    margin-left: 7%;
-    width: 10%;
-    height: 10%;
-    padding-top: 10px;
-}
+/* }
+
 .whatCardsMainDiv{
     display: flex;
     margin-top: -11px;
 }
 .whatTextHeading{
     /* margin-left: -180%; */
-    margin-top: 10px;
+    /* margin-top: 10px; */
     
-}
+/* }
 .whatText{
     width: 50%;
     padding-top: -50%;
+} */ 
+.whatIDoMainDiv{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+/* .whatIcon{
+    /* margin-left: 7%; 
+    width: 50%;
+    height: 50%;
+    /* padding-top: 10px; 
+    color: #007ced;
+} */
+.whatTextHeading{
+    /* padding-top: 0.25%; */
 }

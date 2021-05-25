@@ -34,13 +34,13 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{paddingLeft: '2.5rem'}} className="navbar-nav ml-auto">
-                        <Nav.Link href="#features">About Me</Nav.Link>
-                        <Nav.Link href="#pricing">Resume</Nav.Link>
-                        <Nav.Link href="#deets">Portfolio</Nav.Link>
-                        <Nav.Link href="#memes">Blog</Nav.Link>
-                        <Nav.Link href="#deets">Contact</Nav.Link>
-                        <Nav.Link href="#deets">Extra</Nav.Link>
-                        <Nav.Link href="#deets">Get It Now</Nav.Link>
+                        <Nav.Link className='navLink' href="#features">About Me</Nav.Link>
+                        <Nav.Link className='navLink' href="#pricing">Resume</Nav.Link>
+                        <Nav.Link className='navLink' href="#deets">Portfolio</Nav.Link>
+                        <Nav.Link className='navLink' href="#memes">Blog</Nav.Link>
+                        <Nav.Link className='navLink' href="#deets">Contact</Nav.Link>
+                        <Nav.Link className='navLink' href="#deets">Extra</Nav.Link>
+                        <Nav.Link className='navLink' href="#deets">Get It Now</Nav.Link>
                         
                     </Nav>
 
