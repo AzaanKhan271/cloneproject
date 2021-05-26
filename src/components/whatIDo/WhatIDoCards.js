@@ -24,13 +24,15 @@ const WhatIDoCards = (props) => {
     //   </div>
     // </div>
     <>
+    
+{/*       
       <Grid  item spacing={2} xs={1}>
         <div className="whatIcon">
           {props.icon}
         </div>
       </Grid>
       <Grid item xs={11}>
-        <Grid container  xs>
+        <Grid item xs={12}>
           <Grid item xs={12}>
             <div className='whatTextHeading'>
               <h4 style={{fontSize:'16px'}}>{props.heading}</h4>
@@ -41,7 +43,9 @@ const WhatIDoCards = (props) => {
             </div>
           </Grid>
         </Grid>
-      </Grid>
+      </Grid> */}
+      
+      
 
     </>
   );

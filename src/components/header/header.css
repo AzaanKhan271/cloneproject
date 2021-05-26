@@ -12,6 +12,9 @@
 }
 .header1{
     padding-right: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .headerP{
     color: grey;
@@ -60,4 +63,11 @@
 /* @media screen and (max-width: 800px) {
      {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    
+      @media screen and (max-width: 992px) {
+        .header1 {
+          /* padding-right: 0px; */
+          display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+      }

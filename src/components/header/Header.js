@@ -23,7 +23,7 @@ const Header = () => {
                 alignItems="center"
 className='headerParent'
             >
-                <Grid className='header1' item xs={6}  >
+                <Grid className='header1' item xs={12} md={6}  >
                     <Avatar className='bigAvatar' src={ManPic}>
                     </Avatar>
                 </Grid>
