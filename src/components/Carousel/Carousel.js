@@ -5,7 +5,7 @@ import ManPic from '../../assets/cesar-rincon-1024x1024.jpg'
 
 
 
-const CarouselComp = () => {
+const CarouselComp = (props) => {
     return (
         <>
 <Carousel>

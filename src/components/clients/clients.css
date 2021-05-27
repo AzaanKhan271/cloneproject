@@ -1,0 +1,100 @@
+.carousel {
+    margin-bottom: 7%;
+    /* margin-top: 7%; */
+    /* overflow: visible !important; */
+  }
+  
+  .carousel-indicators {
+    bottom: auto;
+    top: 105%;
+  }
+  
+  .carousel-indicators li {
+    /* border-color: #666; */
+    width: 2%;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007ced;
+    width: 5%;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: visible !important;
+    margin-bottom: 3%;
+  }
+  
+  .mediaQuery {
+    float: left;
+    width: 50%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .mediaQuery {
+      max-width: 100% !important;
+      background-color: blue !important;
+    }
+  }
+  
+  .columnClient {
+    float: left;
+    width: 12%;
+    /* padding: 20px; */
+    /* background-color: #282828; */
+    /* border: 2px solid; */
+    /* border-color: #444; */
+    /* border-radius: 8px; */
+    margin-left: 6%;
+    margin-top: 5%;
+    /* margin-right: 5%; */
+    display: flex;
+  }
+  
+  /* Clear floats after the columns */
+  
+  .rowClient:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .rowClient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6%;
+    margin-top: -6%;
+    margin-bottom: 2%;
+  }
+  .clientImg:hover{
+opacity:1 ;
+  }
+  .clientImg{
+      opacity: 0.5;
+      width: 80%;
+  }
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  
+  @media screen and (max-width: 992px) {
+    .columnClient {
+      width: 80%;
+      margin-top: 5%;
+    }
+    .rowClient{
+      margin-top: 0%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  
+  @media screen and (max-width: 600px) {
+    .columnClient {
+      width: 80%;
+      margin-top: 5%;
+    }
+    .rowClient{
+      margin-top: 0%;
+    }
+  }

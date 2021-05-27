@@ -3,6 +3,10 @@ import ManPic from '../../assets/cesar-rincon-1024x1024.jpg'
 import './testimonial.css'
 import Avatar from '@material-ui/core/Avatar';
 import Grid from '@material-ui/core/Grid';
+import Man1 from '../../assets/testimonial-1.jpg'
+import Man2 from '../../assets/testimonial-2.jpg'
+import Man3 from '../../assets/testimonial-3.jpg'
+
 
 
 
@@ -17,154 +21,100 @@ const Testiomonials = () => {
                     <div id="left_line"></div>
                     <div id="right_line"></div>
                 </div>
-                
-                {/* <Carousel defaultActiveIndex='2' nextIcon="" nextLabel="" prevIcon="" prevLabel="" slide='false' interval={null}>
-                   
-                
-                     <Carousel.Item>
-                        
-                        <div style={{ display: 'flex', }}>
 
-                        
 
-                            <div className='mediaQuery'
-                                style={{
-                                    backgroundColor: "#282828", border: ' 2px solid', borderColor: '#444', borderRadius: '8px',
-                                    maxWidth: '50%', marginLeft: '6%',
-                                }}
+
+
+                <Carousel slide={false} controls={false} fade interval={null} >
+
+
+                    <Carousel.Item>
+
+                        <div className='row'>
+
+
+
+                            <div className='column'
+
                             >
-                                
-                                <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={ManPic}>
+
+                                <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={Man1}>
                                 </Avatar>
 
-                                <div > <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
+                                <div style={{ marginLeft: '-5%', marginTop: '5%', marginRight: '6%' }}> <p><i>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</i></p>
+                                    <h5 style={{fontSize:'0.9em',fontWeight:'700'}}>Daniel Pringle</h5>
+                                    <p style={{fontSize:'0.8em',marginTop:'-5px',color:'#bbb'}}>Sagebrush</p>
                                 </div>
-                                
+
                             </div>
-                            
-                            
-                            
-                            <div className='mediaQuery'
-                                style={{
-                                    backgroundColor: "#282828", border: ' 2px solid', borderColor: '#444', borderRadius: '8px',
-                                    maxWidth: '50%', marginLeft: '6%',
-                                }}
+
+
+
+                            <div className='column'
+
                             >
-                                <div > <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
+
+                                <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={Man2}>
+                                </Avatar>
+
+                                <div style={{ marginLeft: '-5%', marginTop: '5%', marginRight: '6%' }}> <p><i>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</i></p>
+                                    <h5 style={{fontSize:'0.9em',fontWeight:'700'}}>Daniel Pringle</h5>
+                                    <p style={{fontSize:'0.8em',marginTop:'-5px',color:'#bbb'}}>Sagebrush</p>
                                 </div>
+
                             </div>
 
                         </div>
-                        
-                        
+
+
 
 
                     </Carousel.Item>
-                    
+
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
-                            alt="Second slide"
-                        />
+
+                        <div className='row'>
+
+
+
+                            <div className='column'
+
+                            >
+
+                                <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={Man3}>
+                                </Avatar>
+
+                                <div style={{ marginLeft: '-5%', marginTop: '5%', marginRight: '6%' }}> <p><i>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</i></p>
+                                    <h5 style={{fontSize:'0.9em',fontWeight:'700'}}>Daniel Pringle</h5>
+                                    <p style={{fontSize:'0.8em',marginTop:'-5px',color:'#bbb'}}>Sagebrush</p>
+                                </div>
+
+                            </div>
+
+
+
+                            <div className='column'
+
+                            >
+
+                                <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={Man1}>
+                                </Avatar>
+
+                                <div style={{ marginLeft: '-5%', marginTop: '5%', marginRight: '6%' }}> <p><i>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</i></p>
+                                    <h5 style={{fontSize:'0.9em',fontWeight:'700'}}>Daniel Pringle</h5>
+                                    <p style={{fontSize:'0.8em',marginTop:'-5px',color:'#bbb'}}>Sagebrush</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
 
 
                     </Carousel.Item>
 
-                </Carousel> */}
-
-
-
-                <Carousel  nextIcon="" nextLabel="" prevIcon="" prevLabel="" slide='false' interval={null} >
-                   
-                
-                   <Carousel.Item>
-                      
-                      <div className='row'>
-
-                      
-
-                          <div className='column'
-                            //   style={{
-                            //       backgroundColor: "#282828", border: ' 2px solid', borderColor: '#444', borderRadius: '8px',
-                            //       maxWidth: '50%', marginLeft: '6%',
-                            //   }}
-                          >
-                              
-                              <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={ManPic}>
-                              </Avatar>
-
-                              <div style={{marginLeft:'12%' ,marginTop:'-15%'}}> <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                             <h5>Daniel Pringle</h5>
-                             <p>Sagebrush</p>
-                              </div>
-                              
-                          </div>
-                          
-                          
-                          
-                          <div className='column'
-                            //   style={{
-                            //       backgroundColor: "#282828", border: ' 2px solid', borderColor: '#444', borderRadius: '8px',
-                            //       maxWidth: '50%', marginLeft: '6%',
-                            //   }}
-                          >
-                              <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={ManPic}>
-                              </Avatar>
-                              <div > <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                              </div>
-                          </div>
-
-                      </div>
-                      
-                      
-
-
-                  </Carousel.Item>
-                  
-                  <Carousel.Item>
-                      
-                      <div className='row'>
-
-                      
-
-                          <div className='column'
-                            //   style={{
-                            //       backgroundColor: "#282828", border: ' 2px solid', borderColor: '#444', borderRadius: '8px',
-                            //       maxWidth: '50%', marginLeft: '6%',
-                            //   }}
-                          >
-                              
-                              <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={ManPic}>
-                              </Avatar>
-
-                              <div > <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                              </div>
-                              
-                          </div>
-                          
-                          
-                          
-                          <div className='column'
-                            //   style={{
-                            //       backgroundColor: "#282828", border: ' 2px solid', borderColor: '#444', borderRadius: '8px',
-                            //       maxWidth: '50%', marginLeft: '6%',
-                            //   }}
-                          >
-                              <Avatar fontSize='large' style={{ transform: 'translate(-50%,-35%)', width: '80px', height: '80px' }} src={ManPic}>
-                              </Avatar>
-                              <div > <p>Etiam pretium ipsum quis justo dictum accumsan. Phasellus egestas odio a velit scelerisque.</p>
-                              </div>
-                          </div>
-
-                      </div>
-                      
-                      
-
-
-                  </Carousel.Item>
-
-              </Carousel>
+                </Carousel>
             </div>
         </>
     )
