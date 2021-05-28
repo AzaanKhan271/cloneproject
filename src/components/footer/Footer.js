@@ -32,26 +32,43 @@ const Footer = () => {
                     </div>
                 </div>
             </footer> */}
-            <footer className='footer'>
-            <div className='rowFoot'>
+            {/* <footer className='footer'> */}
+            <div
+             className='row'
+             style={{backgroundColor:'#252525',marginLeft:'0%',marginRight:'0%',marginTop:'5%',borderRadius:'0px 0px 40px 40px'
+            ,borderTop:'2px Solid #333 '}}
+             >
 
 
 
-                <div className='columnFoot'
-style={{display:'flex',justifyContent:'flex-start'}}
+                <div className='column columnMedia'
+style={{marginRight:'0%',marginTop:'2%',marginBottom:'2%',marginLeft:'0%',backgroundColor:'transparent',justifyContent:'flex-start'
+,alignItems:'center',border:'none'}}
                 >
-                    <a className='anch'>
-                        <p className='footerP'>
+                    <a
+                    //  className='anch'
+                     >
+                        <p
+                        className='footerP'
+                        >
                             Twitter
                             </p>
                     </a>
-                    <a className='anch'>
-                        <p className='footerP'>
+                    <a 
+                    className='anch'
+                    >
+                        <p 
+                        className='footerP'
+                        >
                             Instagram
                             </p>
                     </a>
-                    <a className='anch'>
-                        <p className='footerP'>
+                    <a 
+                    className='anch'
+                    >
+                        <p 
+                        className='footerP'
+                        >
                             Facebook
                             </p>
                     </a>
@@ -61,16 +78,20 @@ style={{display:'flex',justifyContent:'flex-start'}}
 
 
 
-                <div className='columnFoot'
-style={{display:'flex',justifyContent:'flex-end',marginRight:'5%'}}
+                <div className='column columnMedia'
+style={{marginRight:'0%',marginTop:'2%',marginBottom:'2%',marginLeft:'0%',backgroundColor:'transparent',justifyContent:'flex-end'
+,alignItems:'center',border:'none'}}
+
                 >
-                    <p className='footerPSec'>© 2021 All rights reserved. LMPixels.</p>
+                    <p 
+                    className='footerP'
+                    >© 2021 All rights reserved. LMPixels.</p>
 
 
                 </div>
 
             </div>
-            </footer>
+            {/* </footer> */}
         </>
     )
 }

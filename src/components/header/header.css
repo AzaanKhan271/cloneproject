@@ -3,6 +3,7 @@
     width: 60% !important;
     float: right;
     border: 15px solid #444;
+    position: static !important;
     
 }
 .bigAvatar1{

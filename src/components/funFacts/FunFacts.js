@@ -19,7 +19,7 @@ const FunFacts = () => {
                     <div id="left_line"></div>
                     <div id="right_line"></div>
                 </div>
-                <div className='row'>
+                <div className='row' style={{marginLeft:'0%'}}>
 
 
 

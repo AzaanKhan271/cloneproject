@@ -137,13 +137,13 @@
   
   .columnFacts {
     float: left;
-    width: 19%;
+    width: 23%;
     /* padding: 20px; */
     background-color: #282828;
     border: 2px solid;
     border-color: #444;
     border-radius: 12px;
-    margin-left: 6%;
+    margin-left: 2%;
     margin-top: 10%;
     /* margin-right: 5%; */
     display: flex;
