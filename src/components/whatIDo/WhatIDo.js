@@ -86,8 +86,8 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
               </Grid>
               <Grid container xs={10} md={10} >
 
-                <div className='headerMain'>
-                  <div className='headerP'>
+                <div >
+                  <div >
                     <h4 style={{fontSize:'16px'}}>Copywrite</h4>
                   </div>
 
@@ -115,8 +115,8 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
               </Grid>
               <Grid container xs={10} md={10} >
 
-                <div className='headerMain'>
-                  <div className='headerP'>
+                <div >
+                  <div >
                     <h4 style={{fontSize:'16px'}}>E-Commerce</h4>
                   </div>
 
@@ -152,8 +152,8 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
               </Grid>
               <Grid container xs={10} md={10} >
 
-                <div className='headerMain'>
-                  <div className='headerP'>
+                <div >
+                  <div >
                     <h4 style={{fontSize:'16px'}}>Web Design</h4>
                   </div>
 
@@ -181,8 +181,8 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
               </Grid>
               <Grid container xs={10} md={10} >
 
-                <div className='headerMain'>
-                  <div className='headerP'>
+                <div >
+                  <div >
                     <h4 style={{fontSize:'16px'}}>Marketing</h4>
                   </div>
 

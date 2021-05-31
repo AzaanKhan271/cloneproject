@@ -24,7 +24,10 @@ const Header = () => {
 className='headerParent'
             >
                 <Grid className='header1' item xs={12} md={6}  >
-                    <Avatar className='bigAvatar' src={ManPic}>
+                   <Avatar className='bigAvatar' 
+                   src={ManPic} 
+                //    style={{backgroundPosition: 'calc(50% + 3.13223px) calc(50% + 6.98355px)'}}
+                   >
                     </Avatar>
                 </Grid>
                 <Grid container xs={6} >
@@ -36,11 +39,11 @@ style={{color:'white'}}>Frontend-Developer</p>
                     <div className='headerP'>
                         <p>Frontend-Developer</p>
                     </div>
-                    <div>
+                    <div className='headerHead'>
                         <h1><b>Alex Smith</b></h1>
                     </div>
-                    <div>
-                        <p style={{maxWidth:'400px'}}>
+                    <div >
+                        <p className='headerText'  style={{maxWidth:'400px'}}>
                         Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
                         </p>
                     </div>

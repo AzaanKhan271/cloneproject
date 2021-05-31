@@ -93,3 +93,24 @@ margin-top: 20% !important;
   width: 100%;
   margin-top: 5%
 }
+
+
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #e5e5e5;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #e5e5e5;  /* creates padding around scroll thumb */
+}
+#id{
+  height: 100vh;
+  background: url(./assets//cesar-rincon-1024x1024.jpg);
+  overflow: hidden;
+}

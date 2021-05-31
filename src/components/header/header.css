@@ -1,35 +1,40 @@
-.bigAvatar{
+.bigAvatar {
     height: 60% !important;
     width: 60% !important;
     float: right;
     border: 15px solid #444;
     position: static !important;
-    
 }
-.bigAvatar1{
+
+.bigAvatar1 {
     height: 60% !important;
     width: 60% !important;
     border: 15px solid #444;
 }
-.header1{
+
+.header1 {
     padding-right: 50px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
-.headerP{
+
+.headerP {
     color: grey;
 }
-.headerMain{
+
+.headerMain {
     display: flex;
     justify-content: center;
     align-items: left;
     flex-direction: column;
 }
-.headerParent{
+
+.headerParent {
     margin-top: 60px;
 }
-.headerButton{
+
+.headerButton {
     color: white !important;
     border-radius: 20px !important;
     background: transparent;
@@ -42,7 +47,8 @@
     box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
     margin-top: 10px;
 }
-.headerButton1{
+
+.headerButton1 {
     color: white !important;
     border-radius: 20px !important;
     background: transparent;
@@ -54,21 +60,61 @@
     margin-left: 10px;
     box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
 }
-.headerButton1:hover{
+
+.headerButton1:hover {
     background-color: #007ced;
 }
-.headerButton:hover{
+
+.headerButton:hover {
     background-color: #d5d5d5;
     color: #666 !important;
 }
+.headerButton1:focus {
+    outline: none;
+}
+
+.headerButton:focus {
+    
+    outline:none
+}
+
 /* @media screen and (max-width: 800px) {
      {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-      @media screen and (max-width: 992px) {
-        .header1 {
-          /* padding-right: 0px; */
-          display: flex;
-    justify-content: center;
-    align-items: center;
-        }
-      }
+
+@media screen and (max-width: 992px) {
+    .header1 {
+        /* padding-right: 0px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header1 {
+        padding-right: 0px;
+    }
+    .headerP, .headerText, .headerHead {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .headerP{
+margin-top:10%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .headerButton {
+        width: 150px;
+    }
+    .header1 {
+        padding-right: 0px;
+    }
+    .headerP{
+        margin-top:10%;
+            }
+            .headerP, .headerText, .headerHead {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            } 
+}

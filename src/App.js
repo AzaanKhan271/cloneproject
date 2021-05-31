@@ -6,6 +6,12 @@ import PersistentDrawerRight from './components/SideBar'
 
 
 const App = () => {
+  // $('#trans').mousemove(function(e){
+  //   var moveX = (e.pageX * -1 / 15);
+  //   var moveY = (e.pageY * -1 / 15);
+  //   $(this).css('background-position', moveX + 'px ' + moveY + 'px')
+  // })
+  
   return (
     <>
       <div className='sideMarDiv'
@@ -29,8 +35,10 @@ const App = () => {
           <PersistentDrawerRight />
         </div>
       </div>
+      
       <MainDiv />
-
+      
+<section></section>
     </>
   )
 }

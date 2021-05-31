@@ -50,7 +50,9 @@ const useStyles = makeStyles((theme) => ({
   },
   drawerPaper: {
     width: drawerWidth,
-    drawerPaper: '#222'
+  background: '#222',
+  color:'#e5e5e5',
+  
   },
   drawerHeader: {
     display: 'flex',
@@ -76,6 +78,9 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginRight: 0,
   },
+  listPaper: {
+    background:'#333'
+  }
 }));
 
 export default function PersistentDrawerRight() {
@@ -108,12 +113,14 @@ export default function PersistentDrawerRight() {
             color="inherit"
             aria-label="open drawer"
             edge="end"
+            variant='temporarly'
             onClick={handleDrawerOpen}
             className={clsx(open && classes.hide)}
             style={{justifyContent:'flex-end',
             marginRight:'1%',
             // marginTop:'10%'
-            backgroundColor:'#222'
+            backgroundColor:'#222',
+           outline:'none',
            
         }}
           >
@@ -152,25 +159,27 @@ export default function PersistentDrawerRight() {
         </Typography>
       </main> */}
       <Drawer
+      position='fixed'
         className={classes.drawer}
-        variant="persistent"
+        variant="temporarly"
         anchor="right"
         open={open}
         classes={{
           paper: classes.drawerPaper,
         }}
+        transitionDuration={{ enter: 1000, exit: 1000 }}
         style={{backgroundColor:'#222 !important'}}
       >
         <div className={classes.drawerHeader}>
-          <IconButton onClick={handleDrawerClose}>
+          <IconButton onClick={handleDrawerClose} style={{color:'#e5e5e5'}}>
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
         </div>
         <Divider />
-        <List>
+        <List className='classes.listPaper'>
           {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemIcon>{index % 2 === 0 ? <InboxIcon style={{color:'#e5e5e5'}} /> : <MailIcon style={{color:'#e5e5e5'}} />}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
@@ -179,7 +188,7 @@ export default function PersistentDrawerRight() {
         <List>
           {['All mail', 'Trash', 'Spam'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemIcon>{index % 2 === 0 ? <InboxIcon style={{color:'#e5e5e5'}} /> : <MailIcon style={{color:'#e5e5e5'}} />}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
