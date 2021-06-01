@@ -49,7 +49,7 @@ style={{color:'white'}}>Frontend-Developer</p>
                     </div>
                     <div>
                         
-                        <button className='headerButton1'>Download CV </button> 
+                     <a  href='https://themeforest.net/item/leven-vcard-wordpress-theme/25289671' target='_blank'> <button className='headerButton1' >Download CV </button> </a>  
                         <button className='headerButton'>Contact</button>
                     </div>
                     </div>
