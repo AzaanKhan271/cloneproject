@@ -4,6 +4,7 @@ import Footer from '../footer/Footer'
 import ResHead from './ResHead/ResHead'
 import ExperEdc from './ExperEdc/ExperEdc'
 import Certificates from './Certificates/Certificates'
+import Skills from './Skills/Skills'
 
 
 
@@ -21,7 +22,7 @@ const Resume = () => {
             <div><ResHead/></div>
             <div><ExperEdc/></div>
             <div><Certificates/></div>
-            {/* <div><Clients/></div> */}
+            <div><Skills/></div>
             {/* <div><FunFacts/></div> */}
             <Footer/>
         </div>

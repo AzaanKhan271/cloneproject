@@ -1,0 +1,70 @@
+.columnSkills {
+    float: left;
+    width: 40%;
+    /* padding: 20px; */
+    /* background-color: #282828; */
+    /* border: 2px solid;
+    border-color: #444;
+    border-radius: 8px; */
+    margin-left: 6%;
+    margin-top: 10%;
+    /* margin-right: 5%; */
+    display: flex;
+  }
+  
+  /* Clear floats after the columns */
+  
+  .rowSkills:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .rowSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6%;
+    margin-top: -6%;
+    margin-bottom: 2%;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  
+  @media screen and (max-width: 992px) {
+    .columnSkills {
+      width: 80%;
+      margin-top: 10%;
+    }
+    .rowSkills{
+      margin-top: 0%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  
+  @media screen and (max-width: 600px) {
+    .columnSkills {
+      width: 80%;
+      margin-top: 10%;
+    }
+    .rowSKills{
+      margin-top: 0%;
+    }
+  }
+
+  .skillsSubHead h4{
+    font-size: 13px;
+    line-height: 1.1em;
+    position: relative;
+    float: left;
+    margin: 0 0 4px;
+  }
+  .skillValue{
+    font-size: 11px;
+    line-height: 1.1em;
+    position: relative;
+    float: right;
+    margin: 0 0 4px;
+    color: #888;
+  }
