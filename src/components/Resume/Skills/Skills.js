@@ -19,7 +19,9 @@ const Skills = () => {
                     <div className='heading'>
                         <h2 >Design Skills</h2>
                         <div id="left_line"></div>
-                        <div id="right_line"></div>
+                        <div
+                         
+                         id="right_line"></div>
                     </div>
                     <br />
                     <div className='skillsSubHead'>
@@ -66,7 +68,9 @@ const Skills = () => {
                     <div className='heading'>
                         <h2 >Coding Skills</h2>
                         <div id="left_line"></div>
-                        <div style={{left:"57%"}} id="right_line"></div>
+                        <div 
+                        // style={{left:"57%"}} 
+                        id="right_line"></div>
                     </div>
                     <br />
                     <div className='skillsSubHead'>

@@ -18,7 +18,9 @@ const ExperEdc = () => {
             <div className='heading' style={{marginLeft:'-5%'}}>
               <h2 >Education</h2>
               <div  id="left_line"></div>
-              <div style={{left:'57%'}} id="right_line"></div>
+              <div 
+              // style={{left:'57%'}}
+               id="right_line"></div>
 
             </div>
 
