@@ -19,7 +19,7 @@ const Resume = () => {
             </div>
             <div className='mainDiv'>
             <div><NavBar /></div>
-            <div><ResHead/></div>
+            <div><ResHead experience='8 Years Of Experience' heading='Resume'/></div>
             <div><ExperEdc/></div>
             <div><Certificates/></div>
             <div><Skills/></div>

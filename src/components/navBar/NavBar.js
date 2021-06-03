@@ -97,7 +97,7 @@ const NavBar = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='navLink' href="#contact">Contact</Nav.Link>
+            <Nav.Link className='navLink' href="/contact">Contact</Nav.Link>
             <Nav.Link className='navLink' href="#extra">Extra</Nav.Link>
             <Nav.Link className='navLink'  href="https://themeforest.net/item/leven-vcard-wordpress-theme/25289671" target='_blank'>Get It Now</Nav.Link>
 
