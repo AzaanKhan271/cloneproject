@@ -47,6 +47,7 @@ style={{marginRight:'0%',marginTop:'2%',marginBottom:'2%',marginLeft:'0%',backgr
                 >
                     <a
                     //  className='anch'
+                    href='https://www.twitter.com' target='_blank'
                      >
                         <p
                         className='footerP'
@@ -56,6 +57,7 @@ style={{marginRight:'0%',marginTop:'2%',marginBottom:'2%',marginLeft:'0%',backgr
                     </a>
                     <a 
                     className='anch'
+                    href='https://www.instagram.com' target='_blank'
                     >
                         <p 
                         className='footerP'
@@ -65,6 +67,7 @@ style={{marginRight:'0%',marginTop:'2%',marginBottom:'2%',marginLeft:'0%',backgr
                     </a>
                     <a 
                     className='anch'
+                    href='https://www.facebook.com' target='_blank'
                     >
                         <p 
                         className='footerP'

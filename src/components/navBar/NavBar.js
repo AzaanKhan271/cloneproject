@@ -52,7 +52,7 @@ const NavBar = () => {
   return (
     <div className='navBar'>
       <Navbar style={{ paddingLeft: "2.5px", backgroundColor: '#222', background: 'transparent' }} collapseOnSelect expand="lg" variant="dark">
-        <Navbar.Brand className='navBarBrand' href="/"><Avatar className={classes.large} style={{ backgroundColor: '#007ced' }}><b style={{ fontSize: 'xx-large', fontWeight: '900' }}>A</b></Avatar><b className='bold'>Alex </b>Smith</Navbar.Brand>
+        <Navbar.Brand className='navBarBrand' href="/"><Avatar className={classes.large} style={{ backgroundColor: '#007ced' }}><b style={{ fontSize: 'xx-large', fontWeight: '900' }}>A</b></Avatar><b className='bold'>Azan  </b>Rasheed Khan</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav style={{ paddingLeft: '2.5rem' }} className="navbar-nav ml-auto">

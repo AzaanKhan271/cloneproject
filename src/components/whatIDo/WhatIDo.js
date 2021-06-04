@@ -64,8 +64,8 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
       <div style={{marginLeft:'5%',marginRight:'5%',marginTop:'8%' }}>
         <div className='heading'>
           <h2 >What I Do</h2>
-          <div id="left_line"></div>
-          <div id="right_line"></div>
+        <div> <div id="left_line"></div>
+          <div id="right_line"></div></div> 
         </div>
 <div style={{marginTop:'5%'}}>
         <Grid
@@ -88,12 +88,13 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
 
                 <div >
                   <div >
-                    <h4 style={{fontSize:'16px'}}>Copywrite</h4>
+                    <h4 style={{fontSize:'16px'}}>Web Design</h4>
                   </div>
 
                   <div>
                     <p style={{fontSize:'14px'}} >
-                      Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
+                      {/* Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu. */}
+                      Highly skilled  UX Designer to help enhance user interactivity, user traffic, and general outlook of the platform.
                         </p>
                   </div>
 
@@ -117,12 +118,13 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
 
                 <div >
                   <div >
-                    <h4 style={{fontSize:'16px'}}>E-Commerce</h4>
+                    <h4 style={{fontSize:'16px'}}>Redux Toolkit</h4>
                   </div>
 
                   <div>
                     <p style={{fontSize:'14px'}}>
-                      Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
+                      {/* Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu. */}
+                      Can work on Redux Toolkit to manage states and data using reducers,useSelector , useDispatch, action, payload and etc.
                         </p>
                   </div>
 
@@ -154,12 +156,13 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
 
                 <div >
                   <div >
-                    <h4 style={{fontSize:'16px'}}>Web Design</h4>
+                    <h4 style={{fontSize:'16px'}}>API Integration</h4>
                   </div>
 
                   <div>
                     <p style={{fontSize:'14px'}} >
-                      Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
+                      {/* Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu. */}
+                     Can Integrate APIs using Axios and fetch and other methods, to get or post data to the database. 
                         </p>
                   </div>
 
@@ -183,12 +186,12 @@ text={'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris c
 
                 <div >
                   <div >
-                    <h4 style={{fontSize:'16px'}}>Marketing</h4>
+                    <h4 style={{fontSize:'16px'}}>WebSockets</h4>
                   </div>
 
                   <div>
                     <p style={{fontSize:'14px'}}>
-                      Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
+                     can create and work on websockets which are very useful in chatbots  and others things
                         </p>
                   </div>
 

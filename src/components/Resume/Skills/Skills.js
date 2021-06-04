@@ -25,35 +25,35 @@ const Skills = () => {
                     </div>
                     <br />
                     <div className='skillsSubHead'>
-                        <h4>UI/UX Design</h4> <div className="skillValue">95%</div>
+                        <h4>UI/UX Design</h4> <div className="skillValue">80%</div>
 
                     </div>
                     <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
-                        <div style={{ backgroundColor: '#007ced', width: "95%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
+                        <div style={{ backgroundColor: '#007ced', width: "80%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
                     </div>
                     <br/>
                     <div className='skillsSubHead'>
-                        <h4>Print Design</h4> <div className="skillValue">75%</div>
-
-                    </div>
-                    <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
-                        <div style={{ backgroundColor: '#007ced', width: "75%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
-                    </div>
-                    <br/>
-                    <div className='skillsSubHead'>
-                        <h4>Graphic Design</h4> <div className="skillValue">85%</div>
-
-                    </div>
-                    <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
-                        <div style={{ backgroundColor: '#007ced', width: "85%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
-                    </div>
-                    <br/>
-                    <div className='skillsSubHead'>
-                        <h4>Logo Design</h4> <div className="skillValue">90%</div>
+                        <h4>CSS3 Design</h4> <div className="skillValue">90%</div>
 
                     </div>
                     <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
                         <div style={{ backgroundColor: '#007ced', width: "90%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
+                    </div>
+                    <br/>
+                    <div className='skillsSubHead'>
+                        <h4>Graphic Design</h4> <div className="skillValue">60%</div>
+
+                    </div>
+                    <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
+                        <div style={{ backgroundColor: '#007ced', width: "60%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
+                    </div>
+                    <br/>
+                    <div className='skillsSubHead'>
+                        <h4>Logo Design</h4> <div className="skillValue">70%</div>
+
+                    </div>
+                    <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
+                        <div style={{ backgroundColor: '#007ced', width: "70%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
                     </div>
 
 
@@ -82,7 +82,7 @@ const Skills = () => {
                     </div>
                     <br/>
                     <div className='skillsSubHead'>
-                        <h4>PHP</h4> <div className="skillValue">90%</div>
+                        <h4>ReactJS/React Native</h4> <div className="skillValue">90%</div>
 
                     </div>
                     <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
@@ -98,11 +98,11 @@ const Skills = () => {
                     </div>
                     <br/>
                     <div className='skillsSubHead'>
-                        <h4>Smarty/Twig</h4> <div className="skillValue">85%</div>
+                        <h4>Redux</h4> <div className="skillValue">80%</div>
 
                     </div>
                     <div style={{ border: '2px solid #444', borderRadius: '10px', padding: '1px' }}>
-                        <div style={{ backgroundColor: '#007ced', width: "85%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
+                        <div style={{ backgroundColor: '#007ced', width: "80%", height: '4px', padding: '1px' }}><p style={{ display: 'none' }}>-----------------------------------------</p></div>
                     </div>
 
 

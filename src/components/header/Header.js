@@ -7,15 +7,7 @@ import Button from '@material-ui/core/Button';
 const Header = () => {
     return (
         <>
-            {/* <Grid
-                container
-                direction="row"
-                justify="center"
-                alignItems="center"
-                xs={6}
-            >
-<Avatar className='bigAvatar' src={ManPic}></Avatar>
-            </Grid> */}
+            
             <Grid
                 container
                 // direction="row"
@@ -40,11 +32,11 @@ style={{color:'white'}}>Frontend-Developer</p>
                         <p>Frontend-Developer</p>
                     </div>
                     <div className='headerHead'>
-                        <h1><b>Alex Smith</b></h1>
+                        <h1><b>Azan Rasheed  Khan</b></h1>
                     </div>
                     <div >
                         <p className='headerText'  style={{maxWidth:'400px'}}>
-                        Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
+                        To obtain the position of Interactive JavaScript Developer with Tilism Technologies where extensive experience and passion for building interactive experiences and proactive problem solving, adept knowledge of Object-Oriented JavaScript, React, modern JS libraries, Backbone CSS, and semantic HTML will be put to maximum use.
                         </p>
                     </div>
                     <div>

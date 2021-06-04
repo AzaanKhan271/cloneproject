@@ -36,7 +36,7 @@ const ContactDetails = () => {
                                 style={{ paddingLeft: '5%' }}
                             >
                                 <div >
-                                    <h4 style={{ fontSize: '16px' }}>0315-2612485</h4><br/><br/><br/>
+                                    <h4 style={{ fontSize: '16px' }}>0315-XXXXXXX</h4><br/><br/><br/>
                                 </div>
 
                                 <div>
@@ -66,7 +66,7 @@ const ContactDetails = () => {
 
                                 <div>
                                     <p style={{ fontSize: '14px' }} >
-                                        5/483 Zafar Complex Model Colony Malir Karachi 
+                                        Karachi Pakistan
                         </p>
                                 </div>
                             </div>

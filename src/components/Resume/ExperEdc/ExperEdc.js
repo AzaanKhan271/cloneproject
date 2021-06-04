@@ -10,7 +10,7 @@ const ExperEdc = () => {
     <>
 
 
-      <div className='row'>
+<div className='row'>
         <div className='column' style={{backgroundColor:'transparent',border:'none'}}>
           <div
             style={{ marginLeft: '5%', marginRight: '5%', marginTop: '8%' }}
@@ -31,10 +31,14 @@ const ExperEdc = () => {
             >
              <div
              style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
-             ><h5 className='edcSubHead'>2008</h5><span style={{marginLeft:'2%'}}>University Of Studies</span></div> 
+             ><h5 className='edcSubHead'>2022</h5><span style={{marginLeft:'2%'}}>University Of Karachi</span></div> 
              <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
-               <h4 style={{fontSize:'16px'}}>UI Design</h4>
-               <p style={{fontSize:'.92em'}}>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum</p>
+               <h4 style={{fontSize:'16px'}}>BS Financial Mathematics</h4>
+               <p style={{fontSize:'.92em'}}>Calculus With
+Application, 
+Statistics, 
+Macroeconomics, Mathematics, 
+Python<br/><br/></p>
              </div>
             </div>
 
@@ -43,32 +47,32 @@ const ExperEdc = () => {
             >
              <div
              style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
-             ><h5 className='edcSubHead'>2007</h5><span style={{marginLeft:'2%'}}>University Of Studies</span></div> 
-             <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
-               <h4 style={{fontSize:'16px'}}>Graphic Design</h4>
-               <p style={{fontSize:'.92em'}}>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum</p>
-             </div>
-            </div>
-            <div 
-            style={{borderLeft:'2px solid #333',borderBottom:'2px solid #333',}}
-            >
-             <div
-             style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
-             ><h5 className='edcSubHead'>2006</h5><span style={{marginLeft:'2%'}}>University Of Studies</span></div> 
-             <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
-               <h4 style={{fontSize:'16px'}}>Frontend Development</h4>
-               <p style={{fontSize:'.92em'}}>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum</p>
-             </div>
-            </div>
-            <div 
-            style={{borderLeft:'2px solid #333',borderBottom:'2px solid #333',}}
-            >
-             <div
-             style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
-             ><h5 className='edcSubHead'>2005</h5><span style={{marginLeft:'2%'}}>University Of Studies</span></div> 
+             ><h5 className='edcSubHead'>2021</h5><span style={{marginLeft:'2%'}}>BMJ Digital Education (Sir Ali Mughal)</span></div> 
              <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
                <h4 style={{fontSize:'16px'}}>MERN Stack</h4>
-               <p style={{fontSize:'.92em'}}>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum</p>
+               <p style={{fontSize:'.92em'}}>Html5 ,  CSS3 , Javascript , ReactJs , React Native , Redux , MaterialUI,   BootStrap , Git , ES5 , NodeJS , ExpressJS ,MongoDB<br/> <br/></p>
+             </div>
+            </div>
+            <div 
+            style={{borderLeft:'2px solid #333',borderBottom:'2px solid #333',}}
+            >
+             <div
+             style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
+             ><h5 className='edcSubHead'>2017</h5><span style={{marginLeft:'2%'}}>Board Of Intermediate Karachi</span></div> 
+             <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
+               <h4 style={{fontSize:'16px'}}>InterMediate</h4>
+               <p style={{fontSize:'.92em'}}>from Govt Degree Science College Malir Cantt in Pre Engineering<br/><br/> <br/> </p>
+             </div>
+            </div>
+            <div 
+            style={{borderLeft:'2px solid #333',borderBottom:'2px solid #333',}}
+            >
+             <div
+             style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
+             ><h5 className='edcSubHead'>2014</h5><span style={{marginLeft:'2%'}}>Board Of Secondary Education</span></div> 
+             <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
+               <h4 style={{fontSize:'16px'}}>Matric</h4>
+               <p style={{fontSize:'.92em'}}>from Muhammad Ali Jauhar Academy in Science<br/><br/></p>
              </div>
             </div>
 
@@ -98,9 +102,9 @@ const ExperEdc = () => {
             >
              <div
              style={{display:'flex',marginLeft:"12%",alignItems:'center',paddingTop:'2%'}}
-             ><h5 className='edcSubHead'>2016 -  Current</h5><span style={{marginLeft:'2%'}}>Rolling Thunder</span></div> 
+             ><h5 className='edcSubHead'>2021 -  Current</h5><span style={{marginLeft:'2%'}}>Tilism Technologies</span></div> 
              <div style={{paddingLeft:'5%',paddingTop:'2%'}}>
-               <h4 style={{fontSize:'16px'}}>Lead UI/UX Designer</h4>
+               <h4 style={{fontSize:'16px'}}>Software Engineer (trainee)</h4>
                <p style={{fontSize:'.92em'}}>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum</p>
              </div>
             </div>
