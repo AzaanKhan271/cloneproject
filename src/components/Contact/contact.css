@@ -1,0 +1,104 @@
+.iframeDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.columnCont {
+    float: left;
+    width: 23%;
+    /* padding: 20px; */
+    /* background-color: #282828;
+    border: 2px solid;
+    border-color: #444;
+    border-radius: 8px; */
+    margin-left: 4%;
+    margin-top: 10%;
+    margin-right:3%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Clear floats after the columns */
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6%;
+    margin-top: -6%;
+    margin-bottom: 2%;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  
+  @media screen and (max-width: 992px) {
+    .columnCont {
+      width: 80%;
+      margin-top: 10%;
+    }
+    .row{
+      margin-top: 0%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  
+  @media screen and (max-width: 600px) {
+    .columnCont {
+      width: 80%;
+      margin-top: 10%;
+    }
+    .row{
+      margin-top: 0%;
+    }
+  }
+  .inputCont{
+    height: 50px;
+    background: transparent;
+    text-decoration: none;
+    width: 100%;
+    outline: none;
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding-left: 5%;
+    color: #eee;
+    padding-right: 5%;
+  }
+  .inputCont:hover{
+      border-color: #007ced;
+  }
+  .inputCont:focus{
+    border-color: #007ced;
+}
+.contactButton{
+    
+        color: #fff !important;
+        border-radius: 20px !important;
+        background: transparent;
+        border: 2px solid #007ced;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+        margin-top: 10px;
+    
+}
+.contactButton:hover {
+    background-color: #007ced;
+    color: #fff !important;
+}
+.contactButton:focus {
+    
+    outline:none
+}
