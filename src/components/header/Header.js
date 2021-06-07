@@ -1,7 +1,7 @@
 import './header.css'
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
-import ManPic from '../../assets/cesar-rincon-1024x1024.jpg'
+import ManPic from '../../assets/azaan1.jpeg'
 import Button from '@material-ui/core/Button';
 
 const Header = () => {
