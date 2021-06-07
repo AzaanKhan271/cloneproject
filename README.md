@@ -10,4 +10,7 @@
  ## Libraries Used
  i used material ui for icons and drawer and react bootstrap for navbar
  
+ ## Start The App after Cloning
+ write npm start terminal to start the app after cloning
+ 
  
